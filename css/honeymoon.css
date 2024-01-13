@@ -1,0 +1,268 @@
+*{
+    padding: 1;
+    margin: 0.5;
+    
+}
+body{
+   background-color: rgb(166, 150, 129);
+   scroll-behavior: smooth;
+}
+header{
+   
+width: 100%;
+height: 83vh;
+
+border-radius: 20px;
+margin: auto;
+
+}
+header nav{
+width: 100%;
+height: 10vh;
+
+background-color: rgb(0, 0, 0);
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+opacity: 100%;
+
+} 
+
+header nav ul{
+list-style: none;
+display: flex;
+color: rgb(207, 20, 20);
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+nav a:hover{
+    color: #f90000;
+    transition: .4s linear;
+}
+header nav ul li{
+padding: 3px 15px;
+cursor: pointer;
+
+}
+
+header nav h3{
+margin-left: 4%;
+color: white;
+cursor: pointer;
+
+}
+header nav h3:hover{
+    background-color: red;
+    color: rgb(11, 10, 10);
+    border-radius: 20%;
+    transition: .4s linear;
+    }
+
+
+.hn0{
+    margin-top: 0.5%;
+    width: 100%;
+    height: 100%;
+    background-color: #f90000;
+    background-image: url(/img/img/mainpage/Honeymoon-couple-is-having-a-private-romantic-dinner.jpg);
+    background-size: cover;
+    animation: HnyImage 8s linear infinite;
+}
+@keyframes HnyImage{
+    30%{
+        background-image: url(/img/img/mainpage/sunrise-1014712_1280.jpg);
+        background-size: cover;
+    }
+    60%{
+        background-image: url(/img/img/mainpage/Honeymoon-in-paradise.jpg);
+    }
+}
+
+
+.hn2{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid rgb(248, 248, 248); */
+    display: flex;
+}
+.hnplc1{
+    width: 35%;
+    height: 43vh;
+    /* border: 1px solid rgb(255, 255, 255); */
+   
+    margin-left: 5%;
+background-image: url(/img/img/hny/saylee-kale1.jpg);
+background-size: cover;
+
+}
+
+.hnplc1:hover{
+    width: 35%;
+    height: 43vh;
+    /* border: 1px solid rgb(255, 255, 255); */
+   
+    margin-left: 5%;
+background-image: url(/img/img/hny/saylee-kale1.jpg);
+background-size: cover;
+animation: Chny 10s linear infinite;
+}
+
+@keyframes Chny{
+    30%{
+        background-image: url(/img/img/hny/nainital-3537154.jpg);
+        background-size: cover;
+    }
+    60%{
+        background-image: url(/img/img/hny/5b9229fbb0d30Nainital\ Honeymoon\ Tour.jpg);
+        background-size: cover;
+    }
+}
+
+.hnplc11{
+    width: 40%;
+    height: 50%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin-left: 5%;
+    margin-top: 4%;
+
+}
+.hn3{
+    width: 100%;
+    height: 80%;
+margin-top: 1px;
+    /* border: 1px solid rgb(255, 255, 255);  */
+    display: flex;
+}
+.hnplc2{
+    width: 35%;
+    height: 43vh;
+    /* border: 1px solid rgb(255, 237, 237); */
+   
+    margin-left: 5%;
+background-image: url(/img/img/hny/goa2.jpg);
+background-size: cover;
+}
+
+.hnplc2:hover{
+    width: 35%;
+    height: 43vh;
+    /* border: 1px solid rgb(255, 237, 237); */
+   
+    margin-left: 5%;
+background-image: url(/img/img/hny/goa2.jpg);
+background-size: cover;
+animation: Chny1 10s linear infinite;
+}
+@keyframes Chny1{
+    30%{
+        background-image: url(/img/img/hny/goa1.jpg);
+        background-size: cover;
+    }
+    70%{
+        background-image: url(/img/img/hny/goa3.jpg);
+        background-size: cover;
+    }
+}
+.hnplc22{
+    width: 40%;
+    height: 50%;
+    /* border: 1px solid rgb(255, 251, 251); */
+    margin-left: 5%;
+    margin-top: 4%;
+
+}
+
+/* kashmir */
+
+.ks2{
+    width: 35%;
+    height: 43vh;
+    /* border: 1px solid rgb(255, 237, 237); */
+   
+    margin-left: 5%;
+background-image: url(/img/img/ks4.JPEG);
+background-size: cover;
+}
+
+.ks2:hover{
+    width: 35%;
+    height: 43vh;
+    /* border: 1px solid rgb(255, 237, 237); */
+   
+    margin-left: 5%;
+background-image: url(/img/img/ks4.JPEG);
+background-size: cover;
+animation: Chny1 10s linear infinite;
+}
+@keyframes Chny1{
+    30%{
+        background-image: url(/img/img/ks2.jpg);
+        background-size: cover;
+    }
+    70%{
+        background-image: url(/img/img/ks3.jpg);
+        background-size: cover;
+    }
+    
+}
+.ks3 p{
+    width: 40%;
+    height: 50%;
+    /* border: 1px solid rgb(255, 251, 251); */
+    margin-left: 45%;
+    margin-top: -20%;
+   justify-content: right;
+    display: flex;
+    align-items: center;
+}
+
+/* footer */
+
+
+
+footer {
+    background-color: #282626;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    display: inline;
+    padding: 2%;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-links a:hover{
+    color: #f90000;
+    
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .footer-logo {
+        font-size: 20px;
+    }
+}
